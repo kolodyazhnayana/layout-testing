@@ -1,0 +1,17 @@
+.image-with-text {
+  display: flex;
+}
+.image-with-text__image {
+  width: 14px;
+  height: 14px;
+  padding-right: 7px;
+}
+.image-with-text__text {
+  line-height: 16px;
+  font-size: 12px;
+  color: #212121;
+}
+.image-with-text__text_purple {
+  color: #3e2d8f;
+}
+/*# sourceMappingURL=index.css.map */

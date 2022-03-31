@@ -1,0 +1,29 @@
+.rating {
+  &_active {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 7px;
+  }
+
+  &__text {
+    font-weight: 400;
+    color: #878787;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  &__star {
+    padding: 0;
+    font-size: 14px;
+    line-height: 1;
+    color: lightgrey;
+
+    &:before {
+      content: '★';
+    }
+  }
+}
+
+.active {
+  color: #fd8949;
+}

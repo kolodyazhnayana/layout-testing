@@ -1,0 +1,11 @@
+.card {
+  max-width: 170px;
+  padding: 10px 15px;
+}
+.card__link {
+  cursor: pointer;
+}
+.card__descr-block {
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=index.css.map */

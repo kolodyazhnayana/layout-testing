@@ -1,0 +1,24 @@
+.rating_active {
+  display: inline-block;
+  font-size: 0;
+  margin-right: 7px;
+}
+.rating__text {
+  font-weight: 400;
+  color: #878787;
+  font-size: 14px;
+  line-height: 18px;
+}
+.rating__star {
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  color: lightgrey;
+}
+.rating__star:before {
+  content: '★';
+}
+.active {
+  color: #fd8949;
+}
+/*# sourceMappingURL=index.css.map */
