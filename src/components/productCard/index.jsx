@@ -20,7 +20,7 @@ const ProductCard = () => {
                         image='https://yastatic.net/market-export/_/b-image/ya-plus/ya-plus-glyph-gradient.svg'
                     />
                     <Rating count='292' />
-                    <Description desc='Смартфон Apple iPhone 13 Pro 512 ГБ, небесно-голубой' />
+                    <Description text='Смартфон Apple iPhone 13 Pro 512 ГБ, небесно-голубой' className='card__description' />
                     <VariantsLink text='Еще 12 вариантов' link='/' />
                     <Recommendation text='90% рекомендуют' />
                     <ImageWithText

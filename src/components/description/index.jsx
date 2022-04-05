@@ -1,11 +1,17 @@
 import './index.css'
+import PropTypes from 'prop-types'
+import clsx from 'clsx'
 
-const Description = ({desc}) => {
+const Description = ({ text, className }) => {
     return (
-        <div className='desc'>
-            <span>{desc}</span>
+        <div className={clsx('desc', className)} >
+            <span className='desc__text'>{text}</span>
         </div>
     )
 }
 
 export default Description
+
+Description.propTypes = {
+    text: PropTypes.string
+}
