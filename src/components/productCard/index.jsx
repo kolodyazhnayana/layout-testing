@@ -32,9 +32,10 @@ const ProductCard = () => {
                 </div>
             </a>
             <Button
-                text='В корзину'
+                label='В корзину'
                 handleClick={() => console.log('В корзину')}
-                styleType='product-card'
+                styleType='primary'
+                size='large'
             />
         </div>
     )
