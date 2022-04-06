@@ -14,7 +14,7 @@ const ProductCard = () => {
             <a className='card__link' href='https://market.yandex.ru/' target='_blank'>
                 <Image img='https://avatars.mds.yandex.net/get-marketpic/1847688/pic96d006648fb503611985e24f7b6152ab/200x200' />
                 <div className='card__descr-block'>
-                    <Price price='161 689' />
+                    <Price price='161 689' className='card__price' />
                     <ImageWithText
                         text='122 балла на плюс'
                         image='https://yastatic.net/market-export/_/b-image/ya-plus/ya-plus-glyph-gradient.svg'
