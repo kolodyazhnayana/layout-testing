@@ -1,7 +1,16 @@
-.recommendation span {
-  color: #2aad2e;
-  font-weight: 400;
-  font-size: 12px;
+.main-text {
   line-height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+}
+.recommendation span {
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+  color: #2aad2e;
+  font-size: 12px;
+  line-height: 16px;
 }
 /*# sourceMappingURL=index.css.map */

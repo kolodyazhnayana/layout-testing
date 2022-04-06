@@ -1,4 +1,5 @@
 import './index.css'
+import PropTypes from "prop-types"
 
 const Recommendation = ({text}) => {
     return (
@@ -9,3 +10,7 @@ const Recommendation = ({text}) => {
 }
 
 export default Recommendation
+
+Recommendation.propTypes = {
+    text: PropTypes.string
+}
