@@ -1,4 +1,5 @@
 import './index.css'
+import PropTypes from 'prop-types'
 
 const Image = ({ img }) => {
     return (
@@ -9,3 +10,7 @@ const Image = ({ img }) => {
 }
 
 export default Image
+
+Image.propTypes = {
+    img: PropTypes.string
+}

@@ -1,9 +1,6 @@
 body {
   margin: 0;
-  font: 0.8em YS Text,
-  Arial,
-  Helvetica,
-  sans-serif;
+  font: 0.8em YS Text, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,3 +10,4 @@ code {
 a {
   text-decoration: none;
 }
+/*# sourceMappingURL=index.css.map */

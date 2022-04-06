@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.less"],"names":[],"mappings":"AAAA;EACE,gBAAA;;AADF,KAGE;EACE,eAAA;EACA,iBAAA;EACA,cAAA;EACA,gBAAA","file":"index.css"}
+{"version":3,"sources":["/Users/imac-019/Documents/dev/testing/layout/src/styles/variables/typography.less","index.less"],"names":[],"mappings":"AAEA;EACI,iBAAA;EACA,gBAAA;EACA,eAAA;EACA,cAAA;;ACJF,KAAC;EDCC,iBAAA;EACA,gBAAA;EACA,eAAA;EACA,cAAA","file":"index.css"}
