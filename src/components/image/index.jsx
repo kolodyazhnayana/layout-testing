@@ -1,10 +1,10 @@
 import './index.css'
 import PropTypes from 'prop-types'
 
-const Image = ({ img }) => {
+const Image = ({ image }) => {
     return (
         <div className='image'>
-            <img src={img} />
+            <img src={image} />
         </div>
     )
 }
@@ -12,5 +12,5 @@ const Image = ({ img }) => {
 export default Image
 
 Image.propTypes = {
-    img: PropTypes.string
+    image: PropTypes.string
 }

@@ -1,3 +1,6 @@
+@import '../../styles/variables/typography.less';
+@import '../../styles/variables/colors.less';
+
 .image-with-text {
   display: flex;
 
@@ -8,11 +11,12 @@
   }
 
   &__text {
+    .main-text();
     line-height: 16px;
     font-size: 12px;
-    color: #212121;
+
       &_purple {
-        color: #3e2d8f;
+        color: @purple;
       }
   }
 }
