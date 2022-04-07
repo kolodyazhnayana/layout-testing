@@ -4,9 +4,9 @@ import productCardJSON from './data/productCard.json'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
         {
-            productCardJSON.map(item => <ProductCard item={item} key={item.id} />)
+          productCardJSON.map(item => <ProductCard item={item} key={item.id} />)
         }
     </div>
   )

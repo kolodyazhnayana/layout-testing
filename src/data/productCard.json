@@ -3,12 +3,70 @@
     "id": 1,
     "image": "https://avatars.mds.yandex.net/get-marketpic/1847688/pic96d006648fb503611985e24f7b6152ab/200x200",
     "price": "161 689",
-    "title": "Смартфон Apple iPhone 13 Pro 512 ГБ, небесно-голубой",
-    "variants": "Еще 12 вариантов",
+    "title": "Смартфон Apple iPhone 13 Pro Max 128 ГБ, небесно-голубой",
+    "variants": "Ещё 12 вариантов",
     "recommendation": 90,
     "link": "https://market.yandex.ru/",
+    "rating": {
+      "reviews": 292,
+      "grade": 4.5,
+      "total": 5
+    }
+  },
+  {
+    "id": 2,
+    "image": "https://avatars.mds.yandex.net/get-mpic/4303914/img_id2534807821513585971.jpeg/5hq",
+    "price": "38 990",
+    "title": "Умная колонка Яндекс.Станция Макс, синяя",
+    "variants": "Ещё 3 варианта",
+    "link": "https://market.yandex.ru/",
+    "alice": {
+      "title": "Алиса живет здесь",
+      "image": "https://static.yandex.net/market-export/_/b-image/alisa/icon.svg"
+    },
+    "rating": {
+      "reviews": 4030,
+      "grade": 4.5,
+      "total": 5
+    }
+  },
+  {
+    "id": 3,
+    "image": "https://avatars.mds.yandex.net/get-mpic/5255532/img_id3603739827041368494.jpeg/5hq",
+    "price": "33 990",
+    "title": "Sony WH-1000XM4 синий",
+    "variants": "Ещё 2 варианта",
+    "recommendation": 90,
+    "link": "https://market.yandex.ru/",
+    "rating": {
+      "reviews": 783,
+      "grade": 4.5,
+      "total": 5
+    }
+  },
+  {
+    "id": 4,
+    "image": "https://avatars.mds.yandex.net/get-marketpic/1847688/pic96d006648fb503611985e24f7b6152ab/200x200",
+    "price": "186 989",
+    "title": "Смартфон Apple iPhone 13 Pro 512 ГБ, небесно-голубой",
+    "variants": "Ещё 12 вариантов",
+    "recommendation": 90,
+    "link": "https://market.yandex.ru/",
+    "rating": {
+      "reviews": 221,
+      "grade": 4.5,
+      "total": 5
+    }
+  },
+  {
+    "id": 5,
+    "image": "https://avatars.mds.yandex.net/get-mpic/5130171/img_id6515412690886007205.png/7hq",
+    "price": "5 490",
+    "title": "Умная колонка Яндекс.Станция Лайт, ультрафиолет",
+    "variants": "Ещё 7 вариантов",
+    "link": "https://market.yandex.ru/",
     "ya_plus": {
-      "title": "122 балла на плюс",
+      "title": "55 баллов на плюс",
       "image": "https://yastatic.net/market-export/_/b-image/ya-plus/ya-plus-glyph-gradient.svg"
     },
     "alice": {
@@ -16,8 +74,8 @@
       "image": "https://static.yandex.net/market-export/_/b-image/alisa/icon.svg"
     },
     "rating": {
-      "reviews": 7,
-      "grade": 2.5,
+      "reviews": 3297,
+      "grade": 5,
       "total": 5
     }
   }
