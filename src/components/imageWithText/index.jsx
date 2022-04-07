@@ -2,16 +2,16 @@ import './index.css'
 import PropTypes from "prop-types"
 import clsx from "clsx"
 
-const ImageWithText = ({text, image, textColor}) => {
-    const className = clsx(
+const ImageWithText = ({text, image, textColor, className}) => {
+    const spanClass = clsx(
         'image-with-text__text',
         textColor && `image-with-text__text_${textColor}`
     )
 
     return (
-        <div className='image-with-text'>
+        <div className={clsx('image-with-text', className)}>
             <img className='image-with-text__image' src={image} />
-            <span className={className}>
+            <span className={spanClass}>
                 {text}
             </span>
         </div>

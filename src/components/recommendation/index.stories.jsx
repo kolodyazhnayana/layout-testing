@@ -9,6 +9,6 @@ const Template = (args) => <Recommendation {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
-    text: 'text'
+    percent: 80
 }
 

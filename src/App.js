@@ -1,10 +1,13 @@
 import './styles/app/App.css'
 import ProductCard from "./components/productCard"
+import productCardJSON from './data/productCard.json'
 
 function App() {
   return (
     <div className="App">
-      <ProductCard />
+        {
+            productCardJSON.map(item => <ProductCard {...item} key={item.id} />)
+        }
     </div>
   )
 }

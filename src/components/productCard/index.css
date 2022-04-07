@@ -5,11 +5,17 @@
 .card__link {
   cursor: pointer;
 }
-.card__descr-block {
-  padding-bottom: 25px;
+.card__info {
+  padding: 15px 0 25px;
 }
 .card__description {
   padding-top: 7px;
+}
+.card__secondary {
+  padding-top: 5px;
+}
+.card__variants {
+  padding-top: 2px;
 }
 .card__price {
   padding-bottom: 7px;

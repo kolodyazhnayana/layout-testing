@@ -6,27 +6,40 @@ import Text from "../text"
 import Recommendation from "../recommendation"
 import Button from "../button"
 import ImageWithText from "../imageWithText"
+import PropTypes from "prop-types"
 
-const ProductCard = () => {
+const ProductCard = ({item}) => {
     return (
         <div className='card'>
-            <a className='card__link' href='https://market.yandex.ru/' target='_blank'>
-                <Image img='https://avatars.mds.yandex.net/get-marketpic/1847688/pic96d006648fb503611985e24f7b6152ab/200x200' />
-                <div className='card__descr-block'>
-                    <Price price='161 689' className='card__price' />
-                    <ImageWithText
-                        text='122 балла на плюс'
-                        image='https://yastatic.net/market-export/_/b-image/ya-plus/ya-plus-glyph-gradient.svg'
-                    />
-                    <Rating count='292' />
-                    <Text text='Смартфон Apple iPhone 13 Pro 512 ГБ, небесно-голубой' className='card__description' />
-                    <Recommendation text='90% рекомендуют' />
-                    <ImageWithText
-                        text='Алиса живет здесь'
-                        image='https://static.yandex.net/market-export/_/b-image/alisa/icon.svg'
-                        styleType='purple'
-                    />
-
+            <a className='card__link' href={item.link} target='_blank'>
+                <Image image={item.image} />
+                <div className='card__info'>
+                    <Price price={item.price} className='card__price' />
+                    {
+                        item.ya_plus &&
+                        <ImageWithText
+                            text={item.ya_plus.title}
+                            image={item.ya_plus.image}
+                        />
+                    }
+                    <Text text={item.title} className='card__description' />
+                    {
+                        item.variants &&
+                        <Text text={item.variants} styleType='secondary' className='card__variants' />
+                    }
+                    {
+                        item.recommendation &&
+                        <Recommendation percent={item.recommendation} className='card__secondary' />
+                    }
+                    {
+                        item.alice &&
+                        <ImageWithText
+                            text={item.alice.title}
+                            image={item.alice.image}
+                            textColor='purple'
+                            className='card__secondary'
+                        />
+                    }
                 </div>
             </a>
             <Button
@@ -40,3 +53,8 @@ const ProductCard = () => {
 }
 
 export default ProductCard
+
+ProductCard.propTypes = {
+    item: PropTypes.object
+}
+

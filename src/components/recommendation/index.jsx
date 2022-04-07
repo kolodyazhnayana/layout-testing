@@ -1,10 +1,11 @@
 import './index.css'
 import PropTypes from "prop-types"
+import clsx from "clsx"
 
-const Recommendation = ({text}) => {
+const Recommendation = ({percent, className}) => {
     return (
-        <div className='recommendation'>
-            <span>{text}</span>
+        <div className={clsx('recommendation', className)}>
+            <span>{`${percent}% рекомендуют`}</span>
         </div>
     )
 }
@@ -12,5 +13,5 @@ const Recommendation = ({text}) => {
 export default Recommendation
 
 Recommendation.propTypes = {
-    text: PropTypes.string
+    percent: PropTypes.number
 }
