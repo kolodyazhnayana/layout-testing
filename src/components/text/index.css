@@ -4,10 +4,13 @@
   font-size: 14px;
   color: #212121;
 }
-.desc__text {
+.text {
   line-height: 18px;
   font-weight: 400;
   font-size: 14px;
   color: #212121;
+}
+.text_secondary {
+  color: #878791;
 }
 /*# sourceMappingURL=index.css.map */
