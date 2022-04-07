@@ -14,6 +14,9 @@
 .card__secondary {
   padding-top: 5px;
 }
+.card__rating {
+  padding-top: 5px;
+}
 .card__variants {
   padding-top: 2px;
 }

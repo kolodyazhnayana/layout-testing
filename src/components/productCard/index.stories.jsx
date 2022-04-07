@@ -23,6 +23,11 @@ Default.args = {
         alice: {
             title: "Алиса живет здесь",
             image: "https://static.yandex.net/market-export/_/b-image/alisa/icon.svg"
+        },
+        rating: {
+            grade: 3,
+            total: 5,
+            reviews: 17
         }
     }
 }

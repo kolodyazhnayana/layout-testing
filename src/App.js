@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         {
-            productCardJSON.map(item => <ProductCard {...item} key={item.id} />)
+            productCardJSON.map(item => <ProductCard item={item} key={item.id} />)
         }
     </div>
   )

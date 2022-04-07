@@ -1,25 +1,39 @@
 import './index.css'
+import PropTypes from "prop-types"
+import clsx from "clsx"
 
-const Rating = ({count}) => {
+const Rating = ({reviews, grade, total, className}) => {
+    let stars = []
+    for (let i = 0; i < total; i++) {
+        stars.push(<span className='star' key={i} />)
+    }
+
     return (
-        <div className='rating'>
-            {/*<div className='rating_default'>*/}
-            {/*    <span className='rating__star' />*/}
-            {/*    <span className='rating__star' />*/}
-            {/*    <span className='rating__star' />*/}
-            {/*    <span className='rating__star' />*/}
-            {/*    <span className='rating__star' />*/}
-            {/*</div>*/}
-            <div className='rating_active'>
-                <span className='rating__star active' />
-                <span className='rating__star active' />
-                <span className='rating__star active' />
-                <span className='rating__star active' />
-                <span className='rating__star active' />
+        <div className={clsx('rating', className)}>
+            <div className='rating__wrap rating__star'>
+                <div className='rating__inner'>
+                    <div className='rating__default'>
+                        {stars}
+                    </div>
+                    <div className='rating__active' style={{width: `${grade * (100 / total)}%`}}>
+                        {stars}
+                    </div>
+                </div>
             </div>
-            <span className='rating__text'>{count}</span>
+            {
+                reviews &&
+                <div className='rating__count'>
+                    <span >{reviews}</span>
+                </div>
+            }
         </div>
     )
 }
 
 export default Rating
+
+Rating.propTypes = {
+    reviews: PropTypes.number,
+    grade: PropTypes.number,
+    total: PropTypes.number
+}

@@ -1,11 +1,11 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "image": "https://avatars.mds.yandex.net/get-marketpic/1847688/pic96d006648fb503611985e24f7b6152ab/200x200",
     "price": "161 689",
     "title": "Смартфон Apple iPhone 13 Pro 512 ГБ, небесно-голубой",
     "variants": "Еще 12 вариантов",
-    "recommendation": "90",
+    "recommendation": 90,
     "link": "https://market.yandex.ru/",
     "ya_plus": {
       "title": "122 балла на плюс",
@@ -14,6 +14,11 @@
     "alice": {
       "title": "Алиса живет здесь",
       "image": "https://static.yandex.net/market-export/_/b-image/alisa/icon.svg"
+    },
+    "rating": {
+      "reviews": 7,
+      "grade": 5,
+      "total": 5
     }
   }
 ]
