@@ -22,11 +22,20 @@ const ProductCard = ({item}) => {
                             image={item.ya_plus.image}
                         />
                     }
-                    <Rating grade={item.rating.grade} reviews={item.rating.reviews} total={item.rating.total} className='card__rating' />
+                    <Rating
+                        grade={item.rating.grade}
+                        reviews={item.rating.reviews}
+                        total={item.rating.total}
+                        className={item.ya_plus && 'card__rating'}
+                    />
                     <Text text={item.title} className='card__description' />
                     {
                         item.variants &&
-                        <Text text={item.variants} styleType='secondary' className='card__variants' />
+                        <Text
+                            text={item.variants}
+                            styleType='secondary'
+                            className='card__variants'
+                        />
                     }
                     {
                         item.recommendation &&
