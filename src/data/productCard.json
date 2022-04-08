@@ -78,5 +78,48 @@
       "grade": 5,
       "total": 5
     }
+  },
+  {
+    "id": 6,
+    "image": "https://avatars.mds.yandex.net/get-mpic/5235907/img_id9034485933096950350.jpeg/5hq",
+    "price": "148 790",
+    "title": "21.5\" Моноблок Apple iMac (середина 2017 г.) MHK03RU/A, 1920x1080, Intel Core i5 2.3 ГГц, RAM 8 ГБ, SSD 256 ГБ, Intel Iris Plus Graphics 640, MacOS, серебристый",
+    "link": "https://market.yandex.ru/",
+    "rating": {
+      "reviews": 8,
+      "grade": 4.5,
+      "total": 5
+    }
+  },
+  {
+    "id": 7,
+    "image": "https://avatars.mds.yandex.net/get-marketpic/1847688/pic96d006648fb503611985e24f7b6152ab/200x200",
+    "price": "161 689",
+    "title": "Смартфон Apple iPhone 13 Pro Max 128 ГБ, небесно-голубой",
+    "variants": "Ещё 12 вариантов",
+    "recommendation": 90,
+    "link": "https://market.yandex.ru/",
+    "rating": {
+      "reviews": 292,
+      "grade": 4.5,
+      "total": 5
+    }
+  },
+  {
+    "id": 8,
+    "image": "https://avatars.mds.yandex.net/get-mpic/4303914/img_id2534807821513585971.jpeg/5hq",
+    "price": "38 990",
+    "title": "Умная колонка Яндекс.Станция Макс, синяя",
+    "variants": "Ещё 3 варианта",
+    "link": "https://market.yandex.ru/",
+    "alice": {
+      "title": "Алиса живет здесь",
+      "image": "https://static.yandex.net/market-export/_/b-image/alisa/icon.svg"
+    },
+    "rating": {
+      "reviews": 4030,
+      "grade": 4.5,
+      "total": 5
+    }
   }
 ]
