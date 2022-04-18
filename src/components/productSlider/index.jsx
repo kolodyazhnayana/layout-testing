@@ -8,7 +8,7 @@ import './index.css'
 
 const ProductSlider = ({items}) => {
     const slides = items.map(item => (
-        <SwiperSlide key={item.id}>
+        <SwiperSlide key={item.id} className='swiper-slide__product-slider'>
             <ProductCard item={item} />
         </SwiperSlide>
     ))
@@ -19,6 +19,29 @@ const ProductSlider = ({items}) => {
             spaceBetween={10}
             slidesPerView={6}
             navigation
+            className='swiper__product-slider'
+            breakpoints={{
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                768: {
+                    slidesPerView: 5,
+                    spaceBetween: 10
+                },
+                1025: {
+                    slidesPerView: 6,
+                    spaceBetween: 10
+                }
+            }}
         >
             {slides}
         </Swiper>
