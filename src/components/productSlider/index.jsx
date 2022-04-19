@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper'
+import { Navigation, Mousewheel } from 'swiper'
 import "swiper/css"
 import "swiper/css/navigation"
 import ProductCard from "../productCard"
@@ -15,11 +15,12 @@ const ProductSlider = ({items}) => {
 
     return (
         <Swiper
-            modules={[Navigation]}
+            modules={[Navigation, Mousewheel]}
             spaceBetween={10}
             slidesPerView={6}
             navigation
             className='swiper__product-slider'
+            mousewheel={true}
             breakpoints={{
                 0: {
                     slidesPerView: 1,
