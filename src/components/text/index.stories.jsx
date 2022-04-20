@@ -18,3 +18,9 @@ Secondary.args = {
     text: 'text',
     styleType: 'secondary'
 }
+
+export const Link = Template.bind({})
+Link.args = {
+    text: 'link',
+    link: '/all'
+}

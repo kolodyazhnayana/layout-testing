@@ -4,20 +4,17 @@
   font-size: 14px;
   color: #212121;
 }
-.text {
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.heading h1 {
   line-height: 18px;
   font-weight: 400;
   font-size: 14px;
   color: #212121;
-}
-.text_secondary {
-  color: #878791;
-}
-.text_link {
-  display: flex;
-  align-items: center;
-}
-.text_link a {
-  color: #1c397c;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=index.css.map */
