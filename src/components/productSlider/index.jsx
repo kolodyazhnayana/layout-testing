@@ -16,31 +16,35 @@ const ProductSlider = ({items}) => {
     return (
         <Swiper
             modules={[Navigation, Mousewheel]}
-            spaceBetween={10}
-            slidesPerView={6}
+            spaceBetween={20}
+            slidesPerView='auto'
             navigation
             className='swiper__product-slider'
             mousewheel={true}
             breakpoints={{
                 0: {
                     slidesPerView: 1,
-                    spaceBetween: 10
+                    spaceBetween: 20
                 },
                 320: {
                     slidesPerView: 2,
-                    spaceBetween: 10
+                    spaceBetween: 20
                 },
                 480: {
                     slidesPerView: 3,
-                    spaceBetween: 10
+                    spaceBetween: 20
+                },
+                540: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 20
                 },
                 768: {
                     slidesPerView: 5,
-                    spaceBetween: 10
+                    spaceBetween: 20
                 },
                 1025: {
                     slidesPerView: 6,
-                    spaceBetween: 10
+                    spaceBetween: 20
                 }
             }}
         >
