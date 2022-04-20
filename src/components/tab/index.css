@@ -1,0 +1,20 @@
+.main-text {
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+}
+.tab {
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+  padding: 7px 12px;
+  background-color: #efeeea;
+  border-radius: 15px;
+}
+.tab.active {
+  color: #ffffff;
+  background-color: #32312d;
+}
+/*# sourceMappingURL=index.css.map */
