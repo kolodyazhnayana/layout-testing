@@ -1,6 +1,6 @@
 import './index.css'
 import PropTypes from "prop-types"
-import clsx from "clsx";
+import clsx from "clsx"
 
 const Tab = ({text, active}) => {
     return (

@@ -9,8 +9,7 @@ const Template = (args) => <Tab {...args} />
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-    text: 'Бытовая техника',
-    active: false
+    text: 'Бытовая техника'
 }
 
 export const Primary = Template.bind({})

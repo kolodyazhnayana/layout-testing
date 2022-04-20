@@ -1,6 +1,7 @@
 import './index.css'
 import Text from "../text"
-import clsx from "clsx";
+import clsx from "clsx"
+import PropTypes from "prop-types"
 
 const Heading = ({title, link, titleLink, className}) => {
     return (
@@ -12,3 +13,10 @@ const Heading = ({title, link, titleLink, className}) => {
 }
 
 export default Heading
+
+Heading.propTypes = {
+    title: PropTypes.string,
+    link: PropTypes.string,
+    titleLink: PropTypes.string,
+    className: PropTypes.string
+}
