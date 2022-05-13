@@ -1,0 +1,69 @@
+@import '../../../styles/variables/typography';
+@import '../../../styles/variables/colors';
+
+.rating {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  &__count {
+    .main-text();
+    color: @grey;
+  }
+
+  &__star {
+    font-size: 12px;
+
+    .star {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  &__active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width .2s ease-out;
+    overflow: hidden;
+
+    .star {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuNDcgNi4yNTZsMS42MjctNS4wMDhhLjk1Ljk1IDAgMDExLjgwNyAwbDEuNjI3IDUuMDA4aDUuMjY1YS45NS45NSAwIDAxLjU1OSAxLjcxOGwtNC4yNiAzLjA5NSAxLjYyNyA1LjAwOGEuOTUuOTUgMCAwMS0xLjQ2MiAxLjA2Mkw5IDE0LjA0NCA0Ljc0IDE3LjE0YS45NS45NSAwIDAxLTEuNDYyLTEuMDYybDEuNjI3LTUuMDA4LTQuMjYtMy4wOTVhLjk1Ljk1IDAgMDEuNTU5LTEuNzE4SDYuNDd6IiBmaWxsPSIjRkQ4OTQ5Ii8+PC9zdmc+");
+    }
+  }
+
+  &__wrap {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin-right: 8px;
+
+    .rating__inner {
+      display: block;
+      position: relative;
+      white-space: nowrap;
+      margin: 0 -1px;
+    }
+
+    .star {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 50%;
+      box-sizing: content-box;
+      display: inline-block;
+      vertical-align: top;
+      padding: 0 1px;
+    }
+  }
+
+  &__default {
+    position: relative;
+
+    .star {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuNDcgNi4yNTZsMS42MjctNS4wMDhhLjk1Ljk1IDAgMDExLjgwNyAwbDEuNjI3IDUuMDA4aDUuMjY1YS45NS45NSAwIDAxLjU1OSAxLjcxOGwtNC4yNiAzLjA5NSAxLjYyNyA1LjAwOGEuOTUuOTUgMCAwMS0xLjQ2MiAxLjA2Mkw5IDE0LjA0NCA0Ljc0IDE3LjE0YS45NS45NSAwIDAxLTEuNDYyLTEuMDYybDEuNjI3LTUuMDA4LTQuMjYtMy4wOTVhLjk1Ljk1IDAgMDEuNTU5LTEuNzE4SDYuNDd6IiBmaWxsPSIjRDFEMUQxIi8+PC9zdmc+");
+    }
+  }
+
+}
+

@@ -1,5 +1,5 @@
 import './styles/app/App.css'
-import ProductBlock from "./components/productBlock.jsx"
+import ProductBlock from "./components/blocks/productBlock/index"
 import productsInfoJSON from './data/productsInfo.json'
 
 function App() {
