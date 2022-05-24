@@ -2,7 +2,8 @@
   display: flex;
   justify-content: flex-start;
   column-gap: 10px;
-  flex-wrap: wrap;
   row-gap: 10px;
+  overflow: auto;
+  margin: 0 -15px;
+  padding: 0 15px;
 }
-/*# sourceMappingURL=index.css.map */
